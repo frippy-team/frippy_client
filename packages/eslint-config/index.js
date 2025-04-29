@@ -1,4 +1,3 @@
-/** @type {import("eslint").Linter.FlatConfig[]} */
 const config = [
   {
     files: ["**/*.{js,ts,jsx,tsx}"],
