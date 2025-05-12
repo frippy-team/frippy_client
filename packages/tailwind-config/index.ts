@@ -2,6 +2,9 @@ import type { Config } from "tailwindcss";
 
 const sharedConfig: Partial<Config> = {
   theme: {
+    fontFamily: {
+      sans: ["Noto Sans KR", "sans-serif"],
+    },
     extend: {
       colors: {
         "frippy-blue": "#3498db",
@@ -9,9 +12,6 @@ const sharedConfig: Partial<Config> = {
         "frippy-orange": "#f39c12",
         "frippy-dark-gray": "#34495e",
         "frippy-text-light": "#7f8c8d",
-      },
-      fontFamily: {
-        sans: ["Noto Sans KR", "sans-serif"],
       },
       boxShadow: {
         subtle: "0 2px 4px rgba(0, 0, 0, 0.05)",
