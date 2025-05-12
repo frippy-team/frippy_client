@@ -1,10 +1,10 @@
-@tailwind base;
-@tailwind components;
+@import "tailwindcss/preflight";
 @tailwind utilities;
 
 html {
   scroll-behavior: smooth;
 }
+
 body {
   @apply font-sans;
 }
