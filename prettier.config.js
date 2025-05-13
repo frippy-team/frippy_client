@@ -1,11 +1,11 @@
 const config = {
-  semi: false,
+  semi: true,
   singleQuote: true,
   printWidth: 100,
   tabWidth: 2,
-  trailingComma: "es5",
+  trailingComma: 'es5',
   bracketSpacing: true,
-  arrowParens: "avoid",
-};
+  arrowParens: 'avoid',
+}
 
-export default config;
+export default config

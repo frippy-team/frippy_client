@@ -5,6 +5,9 @@ export default function Page() {
       <div className="text-2xl" style={{ color: 'var(--frippy-blue)' }}>
         Tailwind 커스텀작동 확인
       </div>
+      <div className="text-xl" style={{ color: 'var(--frippy-blue)' }}>
+        Tailwind 커스텀작동 확인
+      </div>
     </>
   )
 }
