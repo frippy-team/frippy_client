@@ -1,4 +1,7 @@
-@import "tailwindcss";
+@import 'tailwindcss';
+@import '@frippy-client/tailwind-config';
+@import '@frippy-client/ui/styles.css';
+/* @import '@frippy-client/tailwind-config/shared-styles.css'; */
 
 :root {
   --background: #ffffff;

@@ -1,0 +1,9 @@
+@import 'tailwindcss';
+
+@theme {
+  --frippy-blue: #3498db;
+  --frippy-green: #2ecc71;
+  --frippy-orange: #f39c12;
+  --frippy-dark-gray: #34495e;
+  --frippy-text-light: #7f8c8d;
+}
