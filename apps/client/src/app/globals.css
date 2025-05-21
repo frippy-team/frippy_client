@@ -1,5 +1,4 @@
 @import 'tailwindcss';
-@tailwind utilities;
 @import '@frippy-client/tailwind-config/shared-styles.css';
 @import '@frippy-client/ui/styles.css';
 
